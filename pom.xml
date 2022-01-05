@@ -3,4 +3,13 @@
   <groupId>com.techiesKatta</groupId>
   <artifactId>java8Feature</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	<dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.18.22</version>
+		<scope>provided</scope>
+	</dependency>
+  </dependencies>
 </project>
