@@ -7,7 +7,7 @@ import lombok.NonNull;
 public class Employee {
 
 	@NonNull
-	private int id;
+	private Integer id;
 
 	@NonNull
 	private String firstName;
