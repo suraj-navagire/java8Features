@@ -4,7 +4,7 @@ import lombok.Data;
 import lombok.NonNull;
 
 @Data
-public class Employee {
+public class Employee implements Comparable<Employee>{
 
 	@NonNull
 	private Integer id;
@@ -22,4 +22,9 @@ public class Employee {
 	private Gender gender;
 
 	private ContactDetail contactDetail;
+
+	@Override
+	public int compareTo(Employee o) {
+		return this.age - o.age;
+	}
 }
